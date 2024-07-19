@@ -11,9 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Barter Builds" />
-        <p className="description">Trade Goods, Get Online
-        </p>
+        <Header />
       </main>
 
       <Footer />
