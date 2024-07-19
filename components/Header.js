@@ -8,8 +8,8 @@ const HeroSection = () => {
       <div className="hero-text-box">
         <p>Need a website, but have no idea where to start? 
           Let us help you create a simple, no-frills site to get your business online. 
-          We simply help set up a site, give you the credentials, and you are up and running! 
-          Keep scrolling to find out how it works</p>
+          We simply help set up a site, give you the credentials, and you are up and running.
+          </p>
       </div>
     </div>
   );

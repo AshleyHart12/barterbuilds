@@ -12,12 +12,13 @@ body {
 }
 
 main {
-  padding: 5rem 0;
+  /* padding: 5rem 0; */
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 code {
@@ -44,14 +45,18 @@ code {
   background-position: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
+  width: 100%;
 }
 
 .hero-content {
   text-align: center;
-  color: white;
+  color: black;
   z-index: 1;
+  flex-direction: column;
+  position: relative;
+  top: 50px;
 }
 
 .hero-title {
@@ -66,12 +71,18 @@ code {
 
 .hero-text-box {
   position: absolute;
-  bottom: 0;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.8); 
   text-align: center;
-  padding: 10px 0;
   z-index: 1;
+  display: flex;
+  justify-content: center;
+  padding: 75px;
+  top: 200px;
+}
+
+.hero-text-box p {
+  width: 80%;
 }
 
 .hero-text-box p {
