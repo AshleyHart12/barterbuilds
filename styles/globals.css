@@ -92,3 +92,15 @@ code {
   color: black;
 }
 
+@media screen and (max-width: 768px) {
+  .hero-text-box {
+    padding: 25px 10px;
+    line-height: 1.6;
+    top: 300px;
+  }
+  .hero-content {
+    top: 100px;
+  }
+  
+}
+
